@@ -26,9 +26,3 @@ void AMyActor::Tick( float DeltaTime )
 	Super::Tick( DeltaTime );
 
 }
-
-APawn* AMyActor::FindPawnCameraIsLookingAt()
-{
-	FCollisionQueryParams Params;
-
-}
